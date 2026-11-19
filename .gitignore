@@ -1,0 +1,15 @@
+node_modules/
+
+# Test output: transcripts and screenshots contain content from tested sites.
+runs/
+
+# The test browser's profile, which holds saved sign-ins. Never commit this.
+.browser-profile/
+
+# Pointer to the running test session.
+.session.json
+
+.claude/settings.local.json
+.DS_Store
+Thumbs.db
+*.log

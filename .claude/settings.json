@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/kit.js *)",
+      "PowerShell(node scripts/kit.js *)"
+    ]
+  }
+}

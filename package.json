@@ -1,0 +1,19 @@
+{
+  "name": "srbot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Test a website with the NVDA screen reader, driven by Claude Code: real NVDA speech, recorded and turned into a report.",
+  "scripts": {
+    "kit": "node scripts/kit.js",
+    "doctor": "node scripts/kit.js doctor"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright-core": "^1.65.1"
+  },
+  "os": [
+    "win32"
+  ]
+}
